@@ -1,9 +1,10 @@
 {
-  "name": "cek-codezine-01",
+  "name": "stickies-clova",
   "version": "1.0.0",
-  "description": "",
+  "description": "hackathon data",
   "main": "index.js",
   "scripts": {
+    "start": "index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -13,5 +14,14 @@
     "@line/clova-cek-sdk-nodejs": "^1.0.1",
     "body-parser": "^1.18.2",
     "express": "^4.16.3"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karaqlink/stickies-clova.git"
+  },
+  "bugs": {
+    "url": "https://github.com/karaqlink/stickies-clova/issues"
+  },
+  "homepage": "https://github.com/karaqlink/stickies-clova#readme"
 }
