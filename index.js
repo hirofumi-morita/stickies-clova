@@ -25,7 +25,7 @@ const clovaSkillHandler = clova.Client
                 // 星座を取得
                 const slots = responseHelper.getSlots()
                 // スロット名を間違って付けてしまった場合
-                if (!('zodiac_signs' in slots)) {
+                if (!('day' in slots)) {
                     speech = {
                         lang: 'ja',
                         type: 'PlainText',
@@ -35,7 +35,8 @@ const clovaSkillHandler = clova.Client
                     break
                 }
                 // Slotに登録されていない星座はnullになる
-                if(slots.zodiac_signs == null) {
+                if(slots.day == null) {
+                //if(slots.zodiac_signs == null) {
                     speech = {
                         lang: 'ja',
                         type: 'PlainText',
